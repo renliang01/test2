@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <zz.itcast.celacaidan.view.SwipeLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+    
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="#66000000"
+            android:gravity="center"
+            android:text="Call"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="Delete"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/head_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:id="@+id/tv_name"
+            android:textSize="20sp" />
+    </LinearLayout>
+             </zz.itcast.celacaidan.view.SwipeLayout>
+          
+</RelativeLayout>
